@@ -1,3 +1,3 @@
 # bilaljs
 
-some html ui componenets with a lot of bugs
+some html ui components with a lot of bugs
