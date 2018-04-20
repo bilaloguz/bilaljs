@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <link rel="stylesheet" href="bilaljs.css" type="text/css"> 
+    <script src="bilaljs.js" type="text/javascript"></script>  
+    </head>
+    <body>
+        <script type="text/javascript" charset="utf-8">
+
+bilaljs.ui({
+    view:"form", 
+    id:"log_form",
+    width:300,
+    elements:[
+        { view:"text", label:"İmeyl", name:"email"},
+        { view:"text", type:"password", label:"Pesvırd", name:"password"},
+        { margin:5, cols:[
+            { view:"button", value:"Login" , type:"form"},
+            { view:"button", value:"Kensıl"}
+        ]}
+    ]
+});
+
+        </script>
+    </body>
+</html>
